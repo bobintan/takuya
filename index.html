@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ストップウォッチ</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>ストップウォッチ</h1>
+    <div class="display" id="display">00:00:00.00</div>
+    <div class="controls">
+      <button id="startStop" class="btn btn-primary">開始</button>
+      <button id="lap" class="btn" disabled>ラップ</button>
+      <button id="reset" class="btn btn-danger" disabled>リセット</button>
+    </div>
+    <ol class="laps" id="laps"></ol>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
